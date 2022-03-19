@@ -1,0 +1,23 @@
+.trial{
+    border: 5px outset royalblue;
+    border-radius: 15px;
+    background-color: bisque;
+    text-align: center;
+    border-color: royalblue;
+}
+
+h2 {
+    color: brown;
+    text-decoration: line-through;
+}
+
+.column {
+    float: left;
+    width: 33%;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
