@@ -1,21 +1,30 @@
-.trial{
-    border: 5px outset royalblue;
+.top{
     border-radius: 15px;
     background-color: bisque;
-    text-align: center;
-    border-color: royalblue;
+    padding-inline-start: 10px;
 }
 
-h2 {
-    color: brown;
-    text-decoration: line-through;
+.image{
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    padding: 5px;
+    border: 2px color black;
 }
 
+.topname{
+    font-size: 30px;
+}
 .column {
     float: left;
     width: 33%;
   }
   
+.columntop {
+float: left;
+width: 25%;
+}
+
 .row:after {
     content: "";
     display: table;
